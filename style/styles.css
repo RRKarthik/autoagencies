@@ -1,0 +1,146 @@
+    body{
+        background-color: #18181A;
+        padding-top: 3.5rem;
+    }
+ 
+    nav{
+        position: sticky;
+    }
+    .nav-item {
+        padding: 0 10px;
+    }
+    
+    .nav-link:hover{
+        background-color: #18181A;
+        color: #fff;
+    }
+
+    .nav-link {
+        font-size: 1.25rem;
+    }
+    
+    .navbar-custom {
+        background-color: #E21312;
+    }
+    
+    .navbar-brand {
+        font-weight: 600;
+    }
+    
+    .carousel-item {
+        text-align: center;
+    }
+    
+    #intro {
+        background-color: #18181A;
+    }
+    
+    .jumbotron {
+        background-color: #E21312;
+        text-align: center;
+        color: #18181A;
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+    
+    #desc {
+        background-color: #E21312;
+    }
+    
+    @media (max-width:800px) {
+        .carousel-item img {
+            height: 300px;
+            width: 100vw;
+        }
+    }
+    @media (max-width:800px) {
+        .nav-item {
+            padding: 0px;
+        }
+    }
+    
+    @media (max-width:990px) {
+        .row div {
+            padding-bottom: 2%;
+        }
+    }
+    
+    .desc-text {
+        padding: 1% 15% 0%;
+    }
+    
+    .row {
+        padding: 3% 15% 0%;
+    }
+    #delivery{
+        background-color: #18181A;
+        padding-top: 1%;
+        padding-bottom: 3%;
+    }
+
+    .records{
+        color: white;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        padding-bottom: 1%;
+    }
+
+    #enquiry{
+        background-color: #E21312;
+        padding: 7% 15%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.1rem;    
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        color:#18181A
+        
+        
+    }
+    a:hover{
+        color:#fff;
+        text-decoration: none;
+    }
+    footer{
+        
+        padding: 2% 15%;
+        background-color: #18181A;
+        color: #fff  ;
+    }
+
+
+    /*Bus*/
+    .switch a{
+        color: white;
+        background-color: #E21312;
+    }
+    
+    #override{
+        color: white;
+        background-color: #E21312;
+    }
+    #override:hover{
+        background-color: black;
+    }
+   .card a{
+      color: #000;
+      box-shadow: 18px 18px 18px black;
+   }
+
+ 
+  
+   .footer{
+       background-color: #E21312;
+       padding: 2% 15%;
+       color: #fff;
+   }
+
+   .trucks,.buses{
+       padding: 0% 10%;
+   }
+
+   .btn-custom{
+       background-color: #E21312;
+       color: #fff;
+   }
